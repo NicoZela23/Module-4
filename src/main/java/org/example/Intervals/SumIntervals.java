@@ -15,4 +15,7 @@ public class SumIntervals {
         }
         return totalLength;
     }
+    public static void print(int [][] intervals){
+        System.out.println(sumIntervals(intervals));
+    }
 }
